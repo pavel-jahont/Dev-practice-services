@@ -1,0 +1,10 @@
+This repository contains three services:
+1) A service that generates three random integers X, Y and Z. If X is greater than Z, then display the sum of X and Y through logging in DEBUG mode, otherwise the value Z.
+Display the arithmetic mean of these numbers through logging in INFO mode.
+
+2) A service that generates an array of random integers whose magnitude does not exceed 300 (-300 ... 300). The number of elements in the array is 10.
+Find the maximum and minimum numbers in the array and display. Replace the maximum element with the minimum, multiplied by the maximum.
+Display the resulting array in ERROR mode.
+
+3) A service that generates 10 objects of the Car class with the characteristics name (String), carModel (Enum with three value objects), engineСapacity (int in the range 1-3).
+Groups them by engineСapacity using Map. For an arbitrary value, engineСapacity writes to the file the corresponding list of objects in the format: <name>: <carMode>: engineСapacity

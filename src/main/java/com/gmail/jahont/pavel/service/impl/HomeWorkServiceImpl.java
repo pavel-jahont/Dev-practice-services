@@ -136,5 +136,4 @@ public class HomeWorkServiceImpl implements HomeWorkService {
         int index = RandomUtil.getElement(0, CarModelEnum.values().length - 1);
         return CarModelEnum.values()[index];
     }
-
 }
